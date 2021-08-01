@@ -1,4 +1,4 @@
-FROM archlinux/base:latest
+FROM archlinux:base
 
 RUN pacman -Syu --needed --noconfirm \
     binutils \
